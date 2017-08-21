@@ -1,0 +1,39 @@
+body.brand-deal {
+	.header {
+		
+		text-align: center;
+		width: 100vw;
+
+		.logo {
+			display: inline-block;
+			margin: 10px 0 20px 0;
+			img {
+				width: 40px;
+			}
+			span {
+    			margin-top: -5px;
+    			position: absolute;
+			}
+		}
+		.user {
+			position: absolute;
+			right: 20px;
+			top: 20px;
+		}
+	}
+	.main {
+		.cover-photo {
+			height: 300px;
+			overflow: hidden;
+			position: relative;
+			width: 100%;
+			img {
+				width: 100%;
+			}
+			.cover-header {
+				color: white;
+				font-size: 40px;
+			}
+		}
+	}
+}

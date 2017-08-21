@@ -1,0 +1,215 @@
+.center {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%); }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.btn {
+  background-color: white;
+  border: 1px solid #969696;
+  cursor: pointer;
+  font-family: 'Abel', sans-serif;
+  font-size: 14px;
+  padding: 6px 14px; }
+  .btn.btn-round {
+    border-radius: 8px; }
+  .btn.btn-transparent {
+    background-color: transparent; }
+  .btn.btn-semi-transparent {
+    background-color: rgba(255, 255, 255, 0.8); }
+  .btn:hover {
+    background-color: #969696;
+    color: white; }
+
+body.index .main {
+  height: 100vh;
+  position: fixed;
+  text-align: center;
+  width: 100vw; }
+  body.index .main .logo {
+    display: inline-block;
+    margin-top: 20px; }
+    body.index .main .logo img {
+      width: 70px; }
+    body.index .main .logo span {
+      margin-top: -10px;
+      position: absolute; }
+  body.index .main .user {
+    position: absolute;
+    right: 20px;
+    top: 20px; }
+  body.index .main .background {
+    background-image: url("../img/bg-dark.jpg");
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    z-index: -1; }
+  body.index .main .introduction {
+    color: white;
+    font-size: 20px;
+    margin-top: -50px; }
+  body.index .main .search-bar {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #969696;
+    padding: 10px 16px;
+    text-align: center;
+    transition: padding 200ms ease-in;
+    width: 400px; }
+    body.index .main .search-bar:hover {
+      padding: 12px 18px;
+      transition: padding 200ms ease-out; }
+    body.index .main .search-bar::-webkit-input-placeholder {
+      color: #969696; }
+  body.index .main .submit-button {
+    margin-top: 45px; }
+  body.index .main .footer {
+    bottom: 0;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: absolute;
+    width: 100%; }
+
+body.search-result .header {
+  text-align: center;
+  width: 100vw; }
+  body.search-result .header .logo {
+    display: inline-block;
+    margin: 10px 0 20px 0; }
+    body.search-result .header .logo img {
+      width: 40px; }
+    body.search-result .header .logo span {
+      margin-top: -5px;
+      position: absolute; }
+  body.search-result .header .user {
+    position: absolute;
+    right: 20px;
+    top: 20px; }
+body.search-result .main .cover-photo {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+  body.search-result .main .cover-photo img {
+    width: 100%; }
+  body.search-result .main .cover-photo .cover-header {
+    color: white;
+    font-size: 40px; }
+body.search-result .main .brand-container {
+  margin: 20px 0; }
+  body.search-result .main .brand-container .brand-wrapper {
+    display: inline-block;
+    padding: 20px; }
+    body.search-result .main .brand-container .brand-wrapper figure {
+      cursor: pointer;
+      position: relative; }
+      body.search-result .main .brand-container .brand-wrapper figure figcaption.brand-name {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+        display: inline-block;
+        font-size: 20px;
+        padding: 4px 16px;
+        position: absolute;
+        width: 100%; }
+      body.search-result .main .brand-container .brand-wrapper figure img {
+        width: 100%; }
+      body.search-result .main .brand-container .brand-wrapper figure figcaption.information {
+        background-color: rgba(0, 0, 0, 0.5);
+        bottom: 0;
+        color: white;
+        display: inline-block;
+        font-size: 14px;
+        padding: 4px 16px;
+        position: absolute;
+        width: 100%; }
+        body.search-result .main .brand-container .brand-wrapper figure figcaption.information .what, body.search-result .main .brand-container .brand-wrapper figure figcaption.information .when {
+          display: block; }
+body.search-result .footer {
+  margin: 20px 0;
+  text-align: center;
+  width: 100vw; }
+
+body.brand-deal .header {
+  text-align: center;
+  width: 100vw; }
+  body.brand-deal .header .logo {
+    display: inline-block;
+    margin: 10px 0 20px 0; }
+    body.brand-deal .header .logo img {
+      width: 40px; }
+    body.brand-deal .header .logo span {
+      margin-top: -5px;
+      position: absolute; }
+  body.brand-deal .header .user {
+    position: absolute;
+    right: 20px;
+    top: 20px; }
+body.brand-deal .main .cover-photo {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  width: 100%; }
+  body.brand-deal .main .cover-photo img {
+    width: 100%; }
+  body.brand-deal .main .cover-photo .cover-header {
+    color: white;
+    font-size: 40px; }
+
+html {
+  font-family: 'Abel', sans-serif; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+body {
+  font-family: 'Abel', sans-serif;
+  padding: 0;
+  margin: 0; }
+  body .loading-wrapper {
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    text-align: center; }
+    body .loading-wrapper .loading-gif {
+      position: absolute;
+      top: 50%;
+      transform: translate3d(-50%, -50%, 0);
+      width: 100px;
+      height: 100px; }
+
+.footer {
+  position: relative;
+  margin: 20px 0;
+  text-align: center;
+  width: 100vw; }
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.animation-delay-100 {
+  animation-delay: 100ms; }
+
+.animation-delay-200 {
+  animation-delay: 200ms; }
+
+.animation-delay-300 {
+  animation-delay: 300ms; }
+
+.animation-delay-400 {
+  animation-delay: 400ms; }
+
+.animation-delay-500 {
+  animation-delay: 500ms; }
+
+.animation-delay-600 {
+  animation-delay: 600ms; }
+
+/*# sourceMappingURL=style.css.map */
